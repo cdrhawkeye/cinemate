@@ -22,7 +22,7 @@ export const MovieDetails = () => {
         method: 'GET',
         headers: {
           accept: 'application/json',
-          Authorization: process.env.REACT_APP_TMDB_AUTHORIZATION_KEY
+          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZDg2ZTM0MTE4ZWNhZDU2NDk4YmFmNTg4MTFlNGUwNiIsIm5iZiI6MTc2MTI0ODExOS40NDcsInN1YiI6IjY4ZmE4Mzc3ODYxOGY5ODgwYTQxN2NlNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6hB-WLvB8I7V-Rq6xzx0tqXDxZxOt946ZwnMquo5OkA'
         }
       };
       const response = await fetch(url, options)
