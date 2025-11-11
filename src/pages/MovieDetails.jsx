@@ -77,7 +77,7 @@ export const MovieDetails = () => {
         </p>
         <p className="my-4">
           <span className="font-bold mr-2">IMDB Link:</span>
-          <a className="text-xl text-yellow-300" href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="no">{movie.title}</a>
+          <a className="text-xl text-yellow-300" href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer">{movie.title}</a>
         </p>
         <div style={{ height: 8000 }}>
 
